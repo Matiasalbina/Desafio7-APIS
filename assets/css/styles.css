@@ -1,0 +1,74 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 15px;
+  background-color: #1b191b !important;
+}
+
+.container {
+  padding: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .content {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+}
+
+.container .content h1 {
+  color: white;
+  border-bottom: 2px solid #387d92;
+  padding-bottom: 20px;
+  border-top: #387d92 2px solid;
+  padding-top: 20px;
+  margin: 0 0 50px;
+}
+
+.container .content form {
+  background-color: #4d6172;
+  width: 100%;
+  max-width: 300px;
+  padding: 15px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.container .content form .row label {
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.container .content form .row #result {
+  color: rgb(241, 236, 236);
+  font-size: 24px;
+  text-align: center;
+}
+
+.container .content form .row button {
+  background-color: #1490a8;
+  color: white;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container .content #loading {
+  margin: 30px 0;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  display: none;
+}
+
+.container .content #chart {
+  border-radius: 5px;
+  width: 100%;
+  max-width: 600px;
+  padding: 0 30px;
+}
